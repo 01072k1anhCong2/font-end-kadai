@@ -1,0 +1,325 @@
+* {
+  margin: 0px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 20px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  margin: 0 auto;
+  /* display: block; */
+  padding: 30px 50px;
+  width: 980px;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 50px !important;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+/* phan banner nhe */
+#banner {
+  position: relative;
+}
+.tiltle {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.vana1 {
+  color: #fff;
+}
+.vana1 span {
+  font-size: small;
+}
+/* icon */
+.icon {
+  color: #5dade2;
+}
+#nav-bar nav ul li i {
+  padding-left: 8px;
+}
+/* phan navbar */
+#nav-bar nav ul li a {
+  text-decoration: none;
+
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+}
+#nav-bar nav ul li {
+  border-left: 1px double #d8d8d8;
+  height: 44px;
+  padding: 6px;
+  padding-top: 13px;
+  display: flex;
+}
+#nav-bar nav ul li:not(:nth-child(3)) {
+  font-size: 13px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#nav-bar nav ul li:nth-child(3) {
+  padding-left: 40px;
+  padding-right: 40px;
+  border-left: none;
+  padding-top: 6px;
+}
+/* #nav-bar nav ul {
+  position: relative;
+} */
+#nav-bar nav ul li:nth-child(3) a img {
+  border-radius: 50%;
+
+  transform: translate(-20%, -40%);
+  height: 120px;
+  width: 108px;
+  border: 8px solid #fff;
+}
+#nav-bar nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.vana2 {
+  line-height: 15px;
+}
+.vana2 h1 {
+  font-size: 17px;
+}
+.vana2 span {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* about */
+.section-title {
+  margin-bottom: 36px;
+  font-size: 20px;
+}
+#target p {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+#target {
+  margin-right: 30px;
+}
+#personal-info ul {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+#personal-info {
+  margin-left: 30px;
+}
+.mt-40 {
+  list-style: none;
+  padding-left: 0px;
+}
+.icon-personal {
+  margin-top: 20px;
+}
+/* job info */
+.container2 > div {
+  border: 1px double #d8d8d8;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.container2 > div:hover {
+  transform: scale(1.04);
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.container2 > div div:nth-child(3) {
+  grid-column: 1/-1;
+}
+.container2 > div div i {
+  font-size: 40px;
+  color: #d8d8d8;
+}
+.container2 > div div ul li::marker {
+  font-size: 25px;
+  color: #5dade2;
+}
+.container2 > div div ul li p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.container2 > div div ul li p span {
+  background-color: #5dade2;
+  border-radius: 4px;
+  padding: 1.5px 9px;
+}
+.container2 > div div ul li:last-child {
+  padding-top: 30px;
+}
+.container2 > div div ul {
+  padding-left: 20px;
+  margin-top: 30px;
+}
+.scoreline {
+  display: inline-block;
+  margin-right: 10px;
+  width: 45px;
+}
+.container2 > div ul {
+  padding-left: 0px;
+}
+.container2 > div > ul > li {
+  list-style: none;
+  width: 220px;
+  margin-top: 20px;
+}
+#sothich-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#sothich-icon div > div {
+  border-radius: 50%;
+  border: 1px solid #5dade2;
+  padding: 20px;
+  height: 27px;
+  width: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+#sothich-icon div > div i {
+  color: #5dade2;
+  font-size: 15px;
+
+  margin: 0 auto;
+}
+#sothich-icon div > p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+/* chung chi */
+.chungchi {
+  padding: 60px auto;
+  border-bottom: 1px solid #d6c08d;
+}
+.chungchi > div > div {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.chungchi > div > div > b {
+  display: block;
+  margin-bottom: 13px;
+}
+
+.chungchi:last-child {
+  border-bottom: none;
+}
+.chungchi > div > img {
+  width: 140px;
+  height: 80px;
+}
+.tren {
+  display: flex;
+  flex-grow: 1fr;
+}
+.tren > div:nth-child(1) {
+  padding-right: 30px;
+}
+.tren > div:nth-child(2) {
+  border-left: 1px solid #d4ac0d;
+  padding-left: 20px;
+}
+.duoi > div {
+  display: flex;
+  margin-top: 25px;
+}
+.tren > div {
+  display: flex;
+  margin-bottom: 30px;
+}
+/* project */
+.container3 > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.container3 > div > div > img {
+  width: 280px;
+}
+.container3 > div > div > div ul li {
+  list-style: none;
+  display: inline-block;
+}
+.container3 > div > div > div ul {
+  padding-left: 0px;
+}
+.container3 > div > div > div ul li:nth-child(1) {
+  border-radius: 15px;
+  background-color: #5dade2;
+  padding: 3px 10px;
+  color: #fff;
+}
+.naiyou {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.container3 > div > div > div {
+  padding: 10px;
+  border: 1px solid #d8d8d8;
+  border-radius: 1px;
+  font-size: 12px;
+}
+/* phan footer */
+#footer > div > ul li {
+  list-style: none;
+  text-align: center;
+  font-size: 10px;
+  margin-left: 20px;
+}
+#footer > div > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer > div > ul li > a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.9);
+}
+#footer > div > ul li > a:hover {
+  transform: scale(1.1);
+}
+
+#footer > div > ul li > a i {
+  font-size: 20px;
+  color: #5dade2;
+}
